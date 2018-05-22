@@ -6,6 +6,11 @@ workflows:
       - test-flake8
       - test-pycodestyle
 jobs:
+  build:
+    docker:
+      - image: circleci/python:3.6
+    steps:
+      - checkout
   test-flake8:
     docker:
       - image: circleci/python:3.6
