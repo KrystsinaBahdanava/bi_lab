@@ -3,6 +3,7 @@ def find_message(text):
 
 
 if __name__ == '__main__':
-    assert find_message(u"How are you? Eh, ok. Low or Lower? Ohhh.") == "HELLO", "hello"
+    assert find_message(u"How are you? Eh, ok. Low or Lower? Ohhh.") \
+           == "HELLO", "hello"
     assert find_message(u"hello world!") == "", "Nothing"
     assert find_message(u"HELLO WORLD!!!") == "HELLOWORLD", "Capitals"
