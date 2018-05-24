@@ -3,6 +3,6 @@ amountC = (input("and cents: "))
 amount = float(amountD + "." + amountC)
 quantity = int(input("Customer bought "))
 
-totalAm = float(amount * quantity)
+totalAm = amount * quantity
 
 print("Total is ", totalAm, "$")

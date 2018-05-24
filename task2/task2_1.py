@@ -4,7 +4,7 @@ my_str = my_str.casefold()
 
 rev_str = my_str[::-1]
 
-if list(my_str) == list(rev_str):
+if my_str == rev_str:
     print("It is palindrome")
 else:
     print("It is not palindrome")
