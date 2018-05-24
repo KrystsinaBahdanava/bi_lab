@@ -4,7 +4,7 @@ def generate_numbers():
     print()
     numbers = 20
     dict1 = {}
-    for i in range(1, numbers+1):
+    for i in range(1, numbers + 1):
         dict1[i] = i * i
     print(dict1)
     return dict1

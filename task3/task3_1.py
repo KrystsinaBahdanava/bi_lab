@@ -49,5 +49,3 @@ print()
 print(list4)
 
 print(list3)
-
-

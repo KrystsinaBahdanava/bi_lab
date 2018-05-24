@@ -6,7 +6,7 @@
 
 def generate_numbers(numbers):
     dict1 = {}
-    for i in range(1, numbers+1):
+    for i in range(1, numbers + 1):
         dict1[i] = i * i
     return dict1
 
@@ -26,4 +26,3 @@ def count_characters(count_me_string):
 
 
 # print(count_characters("aahrra"))
-
