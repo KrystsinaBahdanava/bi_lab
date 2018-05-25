@@ -1,4 +1,4 @@
-class Bar:
+class Bar(object):
     clientCnt = 0
 
     def __init__(self, name):
