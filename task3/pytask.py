@@ -45,7 +45,4 @@ def is_palindrome():
     my_str = my_str.casefold()
     rev_str = my_str[::-1]
     print(my_str == rev_str)
-    if my_str == rev_str:
-        return True
-    else:
-        return False
+    return my_str == rev_str

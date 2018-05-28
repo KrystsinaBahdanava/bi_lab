@@ -2,7 +2,7 @@
 
 list1 = ['a', 'b', 'c']
 
-tup1 = tuple((list1[:]))
+tup1 = tuple(list1)
 
 print(tup1)
 
@@ -12,7 +12,7 @@ print(tup1)
 
 tup2 = ('a', 'b', 'c')
 
-list2 = list(tup2[:])
+list2 = list(tup2)
 
 print(list2)
 

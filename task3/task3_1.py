@@ -1,7 +1,7 @@
 # 1 Use a list comprehension to construct the
 # list ['ab', 'ac', 'ad', 'bb', 'bc', 'bd']
 
-list1 = ['ab', 'ac', 'ad', 'bb', 'bc', 'bd']
+list1 = [a + b for a in 'ab' for b in 'bcd']
 
 print(list1)
 
@@ -15,23 +15,14 @@ print(list2)
 # 3 Use a list comprehension to construct
 # the list ['1a', '2a', '3a', '4a'].
 
-list3 = ['1a', '2a', '3a', '4a']
+list3 = [str(i)+"a" for i in range(4)]
 
-print()
-
-# Compare lists (i thought there was such task)
-
-print("Are list1 and list3 the same: ")
-
-print(set(list1) == set(list3) & set(list1) and
-      set(list3) == set(list3) & set(list1))
+print(list3)
 
 # 4 Simultaneously remove the element '2a' from
 # the above list and print it.
 
-del list3[1]
-
-print()
+print(list3.pop(1))
 
 print("After deleting: ")
 
@@ -43,8 +34,6 @@ print(list3)
 list4 = list3[:]
 
 list4.append("2a")
-
-print()
 
 print(list4)
 
