@@ -15,7 +15,7 @@ print(list2)
 # 3 Use a list comprehension to construct
 # the list ['1a', '2a', '3a', '4a'].
 
-list3 = [str(i + 1) + "a" for i in range(3)]
+list3 = [str(i + 1) + "a" for i in range(4)]
 
 print(list3)
 
